@@ -1,0 +1,15 @@
+{
+	"id": "nodebb-plugin-google-forms",
+	"name": "NodeBB Google Forms Plugin",
+	"description": "NodeBB Plugin that allows users to embed Google Forms inline in posts.",
+	"url": "https://github.com/tailot/nodebb-plugin-google-forms",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:parse.post", "method": "parse", "priority": 6
+		}
+	],
+	"staticDirs": {
+        "css": "./static"
+    }
+}

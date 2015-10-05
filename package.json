@@ -1,0 +1,30 @@
+{
+  "name": "nodebb-plugin-google-forms",
+  "version": "0.0.1",
+  "description": "NodeBB Google Forms Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tailot/nodebb-plugin-google-forms"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "forms",
+    "embed"
+  ],
+  "author": {
+    "name": "Vincenzo Tilotta",
+    "email": "tailot@gmail.com"
+  },
+  "nbbpm": {
+    "compatibility": "^0.8.2"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tailot/nodebb-plugin-google-forms/issues"
+  }
+}
