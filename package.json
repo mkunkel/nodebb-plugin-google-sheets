@@ -21,7 +21,7 @@
     "email": "tailot@gmail.com"
   },
   "nbbpm": {
-    "compatibility": "^0.8.2"
+    "compatibility": "^0.9.3"
   },
   "license": "BSD-2-Clause",
   "bugs": {
