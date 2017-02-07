@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-google-forms",
-	"name": "NodeBB Google Forms Plugin",
-	"description": "NodeBB Plugin that allows users to embed Google Forms inline in posts.",
-	"url": "https://github.com/tailot/nodebb-plugin-google-forms",
+	"id": "nodebb-plugin-google-sheets",
+	"name": "NodeBB Google Sheets Plugin",
+	"description": "NodeBB Plugin that allows users to embed Google Sheets inline in posts.",
+	"url": "https://github.com/mkunkel/nodebb-plugin-google-sheets",
 	"library": "./library.js",
 	"hooks": [
 		{
