@@ -4,7 +4,7 @@ This plugin is forked from [nodebb-plugin-google-forms](https://github.com/tailo
 This NodeBB plugin allows users to embed Sheets inline in posts.
 
 ## Installation
-  ~~npm install nodebb-plugin-google-sheets~~
+    npm install nodebb-plugin-google-sheets
 
 ## Usage
 
