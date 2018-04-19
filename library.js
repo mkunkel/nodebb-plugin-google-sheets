@@ -2,7 +2,7 @@
     "use strict";
 
     var Gsheets = {},
-        embed = '<iframe src="https://docs.google.com/spreadsheets/d/$1/edit?usp=sharing" class="sheets-embed">Loading...</iframe>',
+        embed = '<iframe src="https://docs.google.com/spreadsheets/d/$1/edit?usp=sharing" class="sheets-embed">Loading...</iframe><br><a href="https://docs.google.com/spreadsheets/d/$1/edit?usp=sharing" target="_blank">Open sheet in new tab</a>',
         regularUrl = /<a href="(?:https?:\/\/)?(?:docs\.google\.com)\/spreadsheets\/d\/(.+)\/edit?.*>.+<\/a>/g;
     Gsheets.parse = function(data, callback) {
         if (!data || !data.postData || !data.postData.content) {
